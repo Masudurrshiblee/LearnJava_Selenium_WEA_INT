@@ -20,5 +20,10 @@ public class ArithmeticOperator {
         System.out.println("Division value will be "+Division);
         int remainder = num1% num2;
         System.out.println("Remainder value will be "+remainder);
+
+        double num3=25.5;
+        double num4=10;
+        double remaider1=num3%num4;
+        System.out.println("Remainder value will be "+remaider1);
     }
 }
