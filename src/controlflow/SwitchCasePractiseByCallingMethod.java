@@ -2,9 +2,9 @@ package controlflow;
 
 import java.util.Scanner;
 
-public class SwitchCaseSecondPractice {
+public class SwitchCasePractiseByCallingMethod {
     public static void main(String[]args){
-        SwitchCaseSecondPractice.findMonth();
+        SwitchCasePractiseByCallingMethod.findMonth();
 
     }
     public static void findMonth(){
