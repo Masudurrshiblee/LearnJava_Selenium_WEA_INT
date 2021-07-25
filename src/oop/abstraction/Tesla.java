@@ -7,6 +7,13 @@ public class Tesla extends FlyingCar implements Car, AutoPilot{
 // you need to use extends keyword
 // When you need to bring properties from interface to class in that case you need to use implements keyword
   // A class can implements with multiple interface at a time but a class can be extends with one class at a time
+
+    public void accelerationCar(){      // This is tesla's own property/ own method
+        System.out.println("Tesla has acceleration feature");
+    }
+
+
+
     public void carStart() {
         System.out.println("Tesla has Car Start feature");
     }
