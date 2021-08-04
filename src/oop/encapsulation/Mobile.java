@@ -37,7 +37,7 @@ public class Mobile {
         this.price=price;
     }
 
-    public boolean isAvailability() {
+    public boolean isAvailability() {// it is exception because boolean is not return type data type
         return availability;
     }
 

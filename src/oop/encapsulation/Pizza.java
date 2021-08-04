@@ -14,7 +14,7 @@ public class Pizza {
 
     }
 
-    public Pizza(String pizzaName) {
+   /* public Pizza(String pizzaName) {
         this.pizzaName = pizzaName;
     }
 
@@ -24,19 +24,24 @@ public class Pizza {
         this.pizzaQty = pizzaQty;
         this.pizzaSize = pizzaSize;
         this.IsPizzaAvailable = IsPizzaAvailable;
-    }
+    }*/
+
     // If any class has private variable and wants to access from another class then you must have declare
     //getter and setter method in that where private variable is declared
     // Getter and setter method
-    // Getter Method:Return Type
+    // Getter method is return type
+
+    // Getter Method:
     public String getPizzaTopping() {
+        // Syntax : public typesOfVariable getVariableName(){return VariableName;}
         return pizzaTopping;
     }
 
     // Setter Method: Non return type
-    // variable is private String pizzaTopping
+
 
     public void setPizzaTopping(String pizzaTopping) {
+        // public void setVariableName( typesOfVariable VariableName){ this.variableName=VariableName;
         this.pizzaTopping = pizzaTopping;
     }
     public int getPizzaQty(){
