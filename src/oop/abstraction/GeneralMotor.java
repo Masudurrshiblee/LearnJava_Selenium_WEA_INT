@@ -44,6 +44,6 @@ public void carStart() {
 
     public void navigation() {
         // When you add any method in interface after implements then you have to implements again the class
-        // which one was implemented.
+        // which one was not implemented.
     }
 }
