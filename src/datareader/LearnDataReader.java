@@ -1,5 +1,10 @@
 package datareader;
-
+// During learning data reader we need to create a sample text file under any project
+// Right click on project, then click directory and put directory name and then hit enter
+// Then right click on directory and then click file , put file name and then hit enter.
+// Absolute path: Full path
+// Relative path: partial path
+// How to get path: select project+ right click then right click on copy and then click on copy path
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
