@@ -26,15 +26,21 @@ public class LearnArray {
         learn.address[2]="NJ";
         learn.address[3]="VA";
 
+        //How do you print all values for address variable: By using for each loop
+        // Syntax of for each loop:for( Datatype variableName:arrayName){ }
+        for(String ad:learn.address) {
+            System.out.println(ad);
 
 System.out.println(learn.address[1] );
         //System.out.println(learn.address[5]);  if we print this line it will show ArrayIndexOutOfBoundException
-        //Now we need to handle it
+        //Now need to handle it
         try {
             learn.address[4] = "DC";
-           System.out.println(learn.address[4]);
+            System.out.println(learn.address[4]);
         }catch (ArrayIndexOutOfBoundsException e){
             System.out.println("Array index out of bound Exception");
+        }
+
         }
         }
     }
