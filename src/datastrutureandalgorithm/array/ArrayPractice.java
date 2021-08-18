@@ -22,5 +22,29 @@ public class ArrayPractice {
         for(int i=0; i<arraypractice.stId.length; i++){
             System.out.println(arraypractice.stId[i]);
         }
+
+        arraypractice.stBatch[0]="Jill";
+        arraypractice.stBatch[1]="hill";
+        arraypractice.stBatch[2]="lill";
+        arraypractice.stBatch[3]="till";
+        arraypractice.stBatch[4]="mill";
+        arraypractice.stBatch[5]="gill";
+        arraypractice.stBatch[6]="pill";
+        // To print one index
+        System.out.println(arraypractice.stBatch[5]);
+        //To print all index
+        for(String j: arraypractice.stBatch) {
+            System.out.println("j");
+        }
+        arraypractice.tuitionFee[0]=5000.5;
+        arraypractice.tuitionFee[1]=6000.5;
+        arraypractice.tuitionFee[2]=7000.5;
+        arraypractice.tuitionFee[3]=8000.5;
+        arraypractice.tuitionFee[3]=9000.5;
+       // arraypractice.tuitionFee[4]=4000.5;
+        // By using for each loop printing all the index
+        for(double d: arraypractice.tuitionFee){
+            System.out.println(d);
+        }
     }
 }
