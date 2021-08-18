@@ -52,5 +52,13 @@ System.out.println("Student name is " + stName[3][1]);
             }
             System.out.println();
         }
+        System.out.println(carInfo[0][3]); // Calling an static array which is declared at the bottom
+        // and find the value from the table
     }
+    // Declaring and assigning value in 2D array
+    public static String [][] carInfo={
+            {"carBrand","carModel","carPrice","carYear"},// Assigning value in first row
+            {"Bmw","Q33","90000","2021"},// assigning value in 2nd row
+            {"Audi","GT22","75000","2022"}  // Assigning value in 3rd row
+    };
 }
