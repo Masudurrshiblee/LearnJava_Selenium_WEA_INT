@@ -4,7 +4,7 @@ public class Learn2DArray {
     // It is called 2 dimensional array or array of array or multidimensional array
     // In 2 dimensional array first dimension is for row and 2nd dimension is for column
     public static void main(String[] args) {
-        String [] []stName=new String[4][4];// Declaring an array and array name is stName, Here length of row is 5
+        String [][]stName=new String[4][4];// Declaring an array and array name is stName, Here length of row is 5
         // length of column is 4.
 System.out.println(stName.length);
         // assigning value in array
