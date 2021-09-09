@@ -2,6 +2,9 @@ package advance;
 
 public class LearnRecursion {
     // Is a process in which a method is called itself continuously.
+    //Must call itself
+    //Must have a base case
+    // Must change its state and move toward the base case
 int count;
     public void stInfo(){
         count++;
