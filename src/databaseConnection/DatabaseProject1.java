@@ -26,4 +26,5 @@ public class DatabaseProject1 {
             connection.close();
         }
     }
+
 }
